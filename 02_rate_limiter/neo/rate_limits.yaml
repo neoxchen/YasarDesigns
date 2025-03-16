@@ -1,0 +1,22 @@
+rate_limits:
+  default:
+    burst: 2
+    rate: 0.8
+
+  example_api_1:
+    default:
+      burst: 2
+      rate: 0.5
+    overrides:
+      custom_client:
+        burst: 5
+        rate: 1
+
+  example_api_2:
+    default:
+      burst: 5
+      rate: 2
+    overrides:
+      custom_client:
+        burst: 5
+        rate: 0.1
