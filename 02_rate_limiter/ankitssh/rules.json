@@ -1,0 +1,13 @@
+{
+    "ThrottlingRules": {
+        "CreateItem" : {
+            "Rate": 3,
+            "Refill": 1
+        },
+        "GetItem" : {
+            "Rate": 50,
+            "Refill": 10
+        }
+    }
+                
+}
