@@ -1,0 +1,17 @@
+{
+    "PizzaSize" : {
+        "Small" : 2,
+        "Medium" : 4,
+        "Large" : 6
+    },
+    "CrustType" : {
+        "Regular" : 2,
+        "Thin" : 4,
+        "Stuffed" : 6
+    },
+    "Toppings" : {
+        "Mushrooms" : 1,
+        "Tomatoes" : 2,
+        "Olives" : 1
+    }
+}
